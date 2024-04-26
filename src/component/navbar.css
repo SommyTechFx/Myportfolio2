@@ -1,0 +1,101 @@
+.Nav{
+    justify-content: center;
+    text-align: center;
+    background-color: #0D1F2D;
+    padding: 20px 150px ;
+    z-index: 1;
+   
+
+}
+
+.Navbar-wrapper{
+   list-style-type: none;
+   margin:  0;
+   padding:  0;
+   justify-content: center;
+   align-items: first baseline;
+}
+
+.NavLogo{
+    /* float: left;
+    border: 2px solid red; */
+    position: absolute;
+    top: 0%;
+    padding: 0;
+    margin: 0;
+   
+ 
+}
+
+ .logo {
+  width: 100px;
+  position: relative;  
+
+
+  
+}
+
+
+.NavElement{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+    padding: 10px 20px ;
+}
+
+.Navbutton {
+    float: right;
+    color: #0D1F2D;
+    background-color:#FAE1DF ;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: -8px 2px 1px 2px ;
+    
+    
+}
+
+
+
+.Link{
+    text-decoration: none;
+    color: #0D1F2D; 
+    font-size: 20px;
+}
+
+.Link:hover{
+   cursor: pointer; 
+   color: #0D1F2D ;
+}
+
+.icon{
+   
+    display: none;
+    color:#FAE1DF ;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 100px;
+   }
+
+@media screen and (max-width: 925px){
+   .Nav{
+    padding: 25px 0px;
+   } 
+   .NavElement{
+    display: none;
+   }
+
+   .Navbutton{
+    display: none;
+   }
+
+   .icon{
+    display: inline;
+    position: relative;
+    left: 35%;
+   
+   }
+ 
+}
+
