@@ -15,7 +15,7 @@ function navbar({clicked, isClicked}) {
     <div className='Nav'>
       <ul className='Navbar-wrapper'>
         
-        <li className='NavLogo'><Link className= "Link" to= "/">  <img src = {require ('../images/logo3-Photoroom.png')} alt='pic' className='logo'/> </Link></li>
+        <li className='NavLogo'><Link className= "Link" >  <img src = {require ('../images/logo3-Photoroom.png')} alt='pic' className='logo'/> </Link></li>
 
         <li className='NavElement'><NavLink className= "Link" to= "/Home.js">Home</NavLink></li>
 

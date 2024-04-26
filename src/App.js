@@ -18,7 +18,7 @@ function App() {
     <Navbar clicked={clicked} isClicked ={isClicked} />{clicked?<Menu/>: null}
 
     <Routes>
-      <Route exact path='' element= {<Home/>}/>
+      <Route exact path='Home.js' element= {<Home/>}/>
       <Route exact path='ContactUs.js' element= {<ContactUs/>}/>
       <Route exact path='AboutUs.js' element= {<AboutUs/>}/>
       <Route exact path='Signin.js' element= {<Signin/>}/>
